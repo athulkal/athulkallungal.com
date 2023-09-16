@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'https://main--scintillating-sherbet-06144d.netlify.app/projects/'
 languageCode = 'en-us'
 title = 'Athul Kallungal'
 theme = 'PaperMod'
