@@ -1,0 +1,35 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'Athul Kallungal'
+theme = 'PaperMod'
+
+[params]
+  customCSS = "css/custom.css"
+  env = "production"
+  disableThemeToggle = true
+
+[[menu.main]]
+  identifier = "categories"
+  name = "Categories"
+  url = "/categories/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
+  weight = 10  # Adjust the weight as needed
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 10  # 
+
+  [[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact/"
+  weight = 10  
+
+
