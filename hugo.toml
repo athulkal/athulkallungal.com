@@ -1,4 +1,4 @@
-baseURL = 'http://athulkallungal.com/'
+baseURL = 'https://athulkallungal.com/'
 languageCode = 'en-us'
 title = 'Athul Kallungal'
 theme = 'PaperMod'
@@ -7,6 +7,8 @@ theme = 'PaperMod'
   customCSS = "css/custom.css"
   env = "production"
   disableThemeToggle = true
+  ShowShareButtons = true
+  categories = true
 
 [[menu.main]]
   identifier = "categories"

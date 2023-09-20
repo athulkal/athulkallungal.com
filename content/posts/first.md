@@ -4,6 +4,7 @@ date = 2023-09-15T21:57:06+01:00
 draft = false
 categories = ["CSharp"]
 showReadingTime = true
+ShowShareButtons = true
 +++
 
 ### The article is about the static keyword in c#
