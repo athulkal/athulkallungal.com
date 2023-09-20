@@ -65,10 +65,10 @@ So now let's see what that code above is saying it says that we have declared an
 Here we have a class implementing the interface the syntax is similar to a class child class inheriting from the parent class. But the thing with interfaces is that a class can implement more than one interface for exmple let's say we have a resturant that implements both the CustomerService interface and the RestaurantMenu interface.
 
 ```
-public class Restaurant: ICustomerService,IRestaurantMenu
-{
-    // implement the class functionality
-}
+    public class Restaurant: ICustomerService,IRestaurantMenu
+    {
+        // implement the class functionality
+    }
 
 ```
 
@@ -81,18 +81,18 @@ Perhaps the most important use of interfaces is in a concept of [**Coupling**](<
 Let's write an example and see what I mean by coupling
 
 ```
-class PaymentProcessor
-{
-    public void ProcessCreditCardPayment(CreditCard creditCard, decimal amount)
+    class PaymentProcessor
     {
-        // Code to process credit card payment
-    }
+        public void ProcessCreditCardPayment(CreditCard creditCard, decimal amount)
+        {
+            // Code to process credit card payment
+        }
 
-    public void ProcessPayPalPayment(PayPalAccount payPalAccount, decimal amount)
-    {
-        // Code to process PayPal payment
+        public void ProcessPayPalPayment(PayPalAccount payPalAccount, decimal amount)
+        {
+            // Code to process PayPal payment
+        }
     }
-}
 
 ```
 
@@ -101,34 +101,34 @@ Here , You can see that the ProcessCreditCardPayment and ProcessPayPalAccount ar
 So, let's see how interfaces fix this problem:
 
 ```
-interface IPaymentMethod
-{
-    void ProcessPayment(decimal amount);
-}
-
-class CreditCard : IPaymentMethod
-{
-    public void ProcessPayment(decimal amount)
+    interface IPaymentMethod
     {
-        // Code to process credit card payment
+        void ProcessPayment(decimal amount);
     }
-}
 
-class PayPalAccount : IPaymentMethod
-{
-    public void ProcessPayment(decimal amount)
+    class CreditCard : IPaymentMethod
     {
-        // Code to process PayPal payment
+        public void ProcessPayment(decimal amount)
+        {
+            // Code to process credit card payment
+        }
     }
-}
 
-class PaymentProcessor
-{
-    public void ProcessPayment(IPaymentMethod paymentMethod, decimal amount)
+    class PayPalAccount : IPaymentMethod
     {
-        paymentMethod.ProcessPayment(amount);
+        public void ProcessPayment(decimal amount)
+        {
+            // Code to process PayPal payment
+        }
     }
-}
+
+    class PaymentProcessor
+    {
+        public void ProcessPayment(IPaymentMethod paymentMethod, decimal amount)
+        {
+            paymentMethod.ProcessPayment(amount);
+        }
+    }
 
 ```
 
@@ -142,43 +142,43 @@ The member does need to have a virtual in the base class also it doesn't matter 
 let's see an example of this one
 
 ```
-using System;
+    using System;
 
-// Define an interface
-public interface IExample
-{
-    void DoSomething();
-}
-
-// Base class implementing the interface
-public class BaseClass : IExample
-{
-    // explicit implementation of Interface member
-    public void IExample.DoSomething()
+    // Define an interface
+    public interface IExample
     {
-        Console.WriteLine("BaseClass is doing something.");
+        void DoSomething();
     }
-}
 
-// Subclass of BaseClass
-public class SubClass : BaseClass, IExample
-{
-    public new void DoSomething()
+    // Base class implementing the interface
+    public class BaseClass : IExample
     {
-        Console.WriteLine("SubClass is doing something.");
+        // explicit implementation of Interface member
+        public void IExample.DoSomething()
+        {
+            Console.WriteLine("BaseClass is doing something.");
+        }
     }
-}
 
-class Program
-{
-    static void Main()
+    // Subclass of BaseClass
+    public class SubClass : BaseClass, IExample
     {
-        IExample example = new SubClass();
-
-        // Calling DoSomething through the interface
-        example.DoSomething(); // Output: "SubClass is doing something."
+        public new void DoSomething()
+        {
+            Console.WriteLine("SubClass is doing something.");
+        }
     }
-}
+
+    class Program
+    {
+        static void Main()
+        {
+            IExample example = new SubClass();
+
+            // Calling DoSomething through the interface
+            example.DoSomething(); // Output: "SubClass is doing something."
+        }
+    }
 
 ```
 
@@ -196,16 +196,16 @@ So,there are few alternatives to interface reimplementation
 2. When explicitly implementing a member, use the following pattern if you feel that the subclass is going to override it.
 
 ```
-public class TextBox : IDrawShape
-{
-  void IUndoable.IDrawShape() => DrawShape();    // Calls method below
-  protected virtual void DrawShape() => Console.WriteLine ("drawing square");
-}
+    public class TextBox : IDrawShape
+    {
+    void IUndoable.IDrawShape() => DrawShape();    // Calls method below
+    protected virtual void DrawShape() => Console.WriteLine ("drawing square");
+    }
 
-public class Rectangle : Square
-{
-  protected override void DrawShape() => Console.WriteLine("drawing rectangle");
-}
+    public class Rectangle : Square
+    {
+    protected override void DrawShape() => Console.WriteLine("drawing rectangle");
+    }
 
 ```
 
