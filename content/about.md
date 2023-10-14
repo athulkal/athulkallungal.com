@@ -1,6 +1,6 @@
 # About
 
-Hello, I'm Athul Kallungal a passionate developer who loves to write programs in node.js, c#.
+Hello, I'm Athul Kallungal a passionate developer who loves to write programs in Python,Node.js, C#.
 These are just some of my favourite languages. I'm currenly living in
 London,United Kingdom.
 
