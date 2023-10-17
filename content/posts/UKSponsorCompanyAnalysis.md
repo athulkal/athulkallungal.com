@@ -9,7 +9,7 @@ ShowShareButtons = true
 
 ### The idea for the project
 
-The idea came into being while I was chekcing out the UK companies which would sponsor an employees by giving them a skilled worker visa. I found the list of companies you can check it out [here](https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers).The one problem I found with this data set was that it had no information on which sector these companies were from. So, if I want to check for a company in a specific industry and if they were hiring it was literally not possible.
+The idea came into being while I was checking out the UK companies which would sponsor an employees by giving them a skilled worker visa. I found the list of companies you can check it out [here](https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers).The one problem I found with this data set was that it had no information on which sector these companies were from. So, if I want to check for a company in a specific industry and if they were hiring it was literally not possible.
 
 ### The motive: I needed to find Tech companies that were sponsoring visas
 
