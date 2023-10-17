@@ -1,6 +1,6 @@
 +++
 title = 'Uk Companies with sponsorship license Analysis'
-date = 2023-09-20T02:20:06+01:00
+date = 2023-10-17T02:01:06+01:00
 draft = false
 categories = ["Python"]
 showReadingTime = true

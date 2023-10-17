@@ -1,6 +1,6 @@
 +++
 title = 'How to scrape tables from the web'
-date = 2023-09-20T02:20:06+01:00
+date = 2023-10-13T02:20:06+01:00
 draft = false
 categories = ["Python"]
 showReadingTime = true
