@@ -9,7 +9,7 @@ ShowShareButtons = true
 
 ### The idea for the project
 
-The idea came into being while I was checking out the UK companies which would sponsor an employees by giving them a skilled worker visa. I found the list of companies you can check it out [here](https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers).The one problem I found with this data set was that it had no information on which sector these companies were from. So, if I want to check for a company in a specific industry and if they were hiring it was literally not possible.
+The idea came into being while I was checking out the UK companies which would sponsor employees by giving them a skilled worker visa. I found the list of companies you can check it out [here](https://www.gov.uk/government/publications/register-of-licensed-sponsors-workers).The one problem I found with this data set was that it had no information on which sector these companies were from. So, if I want to check for a company in a specific industry and if they were hiring it was literally not possible.
 
 ### The motive: I needed to find Tech companies that were sponsoring visas
 
@@ -33,6 +33,6 @@ you can check the **CODE** [here](https://github.com/athulkal/pybotUKSPONSORS)
 
 ### Final results
 
-I used to pandas to update the dataset and save it as a new csv file. I did some clean up work in Excel and the data was ready to be visualised. I used Tableau to do this beacause it is a easy to use software. You can check out the detailed visualisation over [here](https://public.tableau.com/app/profile/athul.kallungal/viz/TechcompaniesUKsponsor/TechSponsorChart?publish=yes)
+I used pandas to update the dataset and save it as a new csv file. I did some clean up work in Excel and the data was ready to be visualised. I used Tableau to do this beacause it is a easy to use software. You can check out the detailed visualisation over [here](https://public.tableau.com/app/profile/athul.kallungal/viz/TechcompaniesUKsponsor/TechSponsorChart?publish=yes)
 
 ![DataVisualised](/img/Visualisation.png)
