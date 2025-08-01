@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Athul Kallungal</title>
+    <link>https://athulkallungal.com/</link>
+    <description>Recent content on Athul Kallungal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Oct 2023 02:01:06 +0100</lastBuildDate><atom:link href="https://athulkallungal.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uk Companies with sponsorship license Analysis</title>
+      <link>https://athulkallungal.com/posts/uksponsorcompanyanalysis/</link>
+      <pubDate>Mon, 16 Oct 2023 02:01:06 +0100</pubDate>
+      
+      <guid>https://athulkallungal.com/posts/uksponsorcompanyanalysis/</guid>
+      <description>The idea for the project The idea came into being while I was checking out the UK companies which would sponsor employees by giving them a skilled worker visa. I found the list of companies you can check it out here.The one problem I found with this data set was that it had no information on which sector these companies were from. So, if I want to check for a company in a specific industry and if they were hiring it was literally not possible.</description>
+    </item>
+    
+    <item>
+      <title>How to scrape tables from the web</title>
+      <link>https://athulkallungal.com/posts/scrapingwithpython/</link>
+      <pubDate>Fri, 13 Oct 2023 02:20:06 +0100</pubDate>
+      
+      <guid>https://athulkallungal.com/posts/scrapingwithpython/</guid>
+      <description>How to scrape table data ? This article is going to show you definite guide to scrape table data from websites using Python. So, for getting started you need to have python installed obviously and also you need to have a couple of packages namelyBeautifulSoup and Pandas.
+BeautifulSoup is a popular library for web scraping and parsing HTML or XML documents. Pandas is a popular data manipulation and analysis library used in Python.</description>
+    </item>
+    
+    <item>
+      <title>Interfaces in C#</title>
+      <link>https://athulkallungal.com/posts/interfaces/</link>
+      <pubDate>Wed, 20 Sep 2023 02:20:06 +0100</pubDate>
+      
+      <guid>https://athulkallungal.com/posts/interfaces/</guid>
+      <description>What are Interfaces in C# ? Interface is similar to a class, but only specifies the behaviour of what it does instead of storing data.
+So let us explore what an interface is with an analogy. So let&amp;rsquo;s imagine we have a restaurant menu as an interface. The menu lists a variety of dishes the customer can order.The kitchen team knows how to prepare each dish in the menu&amp;rsquo;s description as per the interface contract.</description>
+    </item>
+    
+    <item>
+      <title>The static keyword in C#</title>
+      <link>https://athulkallungal.com/posts/first/</link>
+      <pubDate>Fri, 15 Sep 2023 21:57:06 +0100</pubDate>
+      
+      <guid>https://athulkallungal.com/posts/first/</guid>
+      <description>The article is about the static keyword in c# A static method or field is one that belongs to the class and no instance can have access to the member and methods.
+Let&amp;rsquo;s create an example public class Account { private static int minAge = 18; private static int minIncome = 10000; public static bool AccountAllowed (decimal income, int age) { if (income &amp;gt; minIncome &amp;amp;&amp;amp; age &amp;gt;= minAge) { return true; }else { return false; } } } Here we have a static method AccountAllowed.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://athulkallungal.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://athulkallungal.com/about/</guid>
+      <description>About Hello, I&amp;rsquo;m Athul Kallungal a passionate developer who loves to write programs in Python,Node.js, C#. These are just some of my favourite languages. I&amp;rsquo;m currenly living in London,United Kingdom.
+This website is a personal blog which I use to document my learning journey as a self learn developer. You can have a look at my blogs or you can search by category
+Apart from learning programming langauges and computer science, I&amp;rsquo;m also intrigued about other human speaking languages and I&amp;rsquo;m currently learning spanish because I find the language very interesting.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://athulkallungal.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://athulkallungal.com/contact/</guid>
+      <description>Contact Feel free to connect with me on Linkedin If you prefer email you can contact me on athulkallungal@yahoo.com</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://athulkallungal.com/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://athulkallungal.com/projects/</guid>
+      <description>Projects Blog-Forum The motivation for this project came from a popular blogging website Medium.com.I wanted to try and see if I could build something similar to that. The tech stack I used were node.js, express.js, react, postgreSQL. You can check out the code on my Github
+UK Companies Visa Sponsor Analysis The motive came into being while I was chekcing out the UK companies which would sponsor an employees by giving them a skilled worker visa.</description>
+    </item>
+    
+  </channel>
+</rss>

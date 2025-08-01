@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CSharp on Athul Kallungal</title>
+    <link>https://athulkallungal.com/categories/csharp/</link>
+    <description>Recent content in CSharp on Athul Kallungal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Sep 2023 02:20:06 +0100</lastBuildDate><atom:link href="https://athulkallungal.com/categories/csharp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interfaces in C#</title>
+      <link>https://athulkallungal.com/posts/interfaces/</link>
+      <pubDate>Wed, 20 Sep 2023 02:20:06 +0100</pubDate>
+      
+      <guid>https://athulkallungal.com/posts/interfaces/</guid>
+      <description>What are Interfaces in C# ? Interface is similar to a class, but only specifies the behaviour of what it does instead of storing data.
+So let us explore what an interface is with an analogy. So let&amp;rsquo;s imagine we have a restaurant menu as an interface. The menu lists a variety of dishes the customer can order.The kitchen team knows how to prepare each dish in the menu&amp;rsquo;s description as per the interface contract.</description>
+    </item>
+    
+    <item>
+      <title>The static keyword in C#</title>
+      <link>https://athulkallungal.com/posts/first/</link>
+      <pubDate>Fri, 15 Sep 2023 21:57:06 +0100</pubDate>
+      
+      <guid>https://athulkallungal.com/posts/first/</guid>
+      <description>The article is about the static keyword in c# A static method or field is one that belongs to the class and no instance can have access to the member and methods.
+Let&amp;rsquo;s create an example public class Account { private static int minAge = 18; private static int minIncome = 10000; public static bool AccountAllowed (decimal income, int age) { if (income &amp;gt; minIncome &amp;amp;&amp;amp; age &amp;gt;= minAge) { return true; }else { return false; } } } Here we have a static method AccountAllowed.</description>
+    </item>
+    
+  </channel>
+</rss>

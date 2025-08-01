@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Athul Kallungal</title>
+    <link>https://athulkallungal.com/categories/</link>
+    <description>Recent content in Categories on Athul Kallungal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Oct 2023 02:01:06 +0100</lastBuildDate><atom:link href="https://athulkallungal.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python</title>
+      <link>https://athulkallungal.com/categories/python/</link>
+      <pubDate>Mon, 16 Oct 2023 02:01:06 +0100</pubDate>
+      
+      <guid>https://athulkallungal.com/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSharp</title>
+      <link>https://athulkallungal.com/categories/csharp/</link>
+      <pubDate>Wed, 20 Sep 2023 02:20:06 +0100</pubDate>
+      
+      <guid>https://athulkallungal.com/categories/csharp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
