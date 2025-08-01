@@ -19,3 +19,11 @@ some of my favourite reads are :
 - The C# Programming Yellow Book
 - The C programming language
 - What Evey BODY is Saying
+
+## Certifications & Languages
+
+- **English (CEFR C1)** – Cambridge C1 Advanced  
+  [📄 View Certificate (PDF)](/file/ielts.pdf)
+
+- **Spanish (CEFR B2)** – Instituto Cervantes / SIELE  
+  [📄 View Certificate (PDF)](/file/Certificado.pdf)
