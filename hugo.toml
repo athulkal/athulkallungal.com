@@ -3,11 +3,29 @@ languageCode = 'en-us'
 title = 'Athul Kallungal'
 theme = 'PaperMod'
 
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[languages]
+
+  [languages.en]
+    languageName = "English"
+    weight = 1
+
+  [languages.es]
+    languageName = "Español"
+    weight = 2
+
 [params]
   customCSS = "css/custom.css"
   env = "production"
   disableThemeToggle = true
-  ShowShareButtons = true
+  ShowShareButtons = false
   categories = true
 
 [[menu.main]]

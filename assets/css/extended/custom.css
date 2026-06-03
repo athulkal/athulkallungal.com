@@ -1,3 +1,22 @@
 body a:hover {
   color: rgb(253 224 71);
 }
+
+.highlight {
+  color: rgb(253, 224, 71) !important;
+  font-weight: bold;
+  font-size: 1.1em !important;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.space {
+  position: relative;
+  top: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.highlight-text {
+  color: rgb(255, 219, 40) !important;
+}

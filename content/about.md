@@ -1,24 +1,13 @@
 # About
 
-Hello, I'm Athul Kallungal a passionate developer who loves to write programs in Python,Node.js, C#.
-These are just some of my favourite languages. I'm currenly living in
-London,United Kingdom.
+Hello, I'm Athul Kallungal. A Logistic and supply chain graduate from Kingston University London,currently living in Seville, Spain.
 
-This website is a personal blog which I use to document my learning journey as a self learn developer. You can have a look at my [blogs](/) or you can search by [category](/categories)
+This website is a personal blog where I write about things that I like and also write about the things I learn so I can comeback anytime and refer to. You can have a look at my [blogs](/) or you can search by [category](/categories).
 
-Apart from learning programming langauges and computer science, I'm
-also intrigued about other human speaking languages and I'm currently
-learning spanish because I find the language very interesting.
+So what type of things can you find on my blogs ?
 
-I also read a lot and I find it keeps me thinking and keeping my
-mental sanity insight in this world where time goes so fast. I really
-like the saying "A room without books is like a body without a soul."
-some of my favourite reads are :
-
-- Sapiens - A brief history of mankind
-- The C# Programming Yellow Book
-- The C programming language
-- What Evey BODY is Saying
+The things that are of peak interest for me are topics related to supply chain and logistics, also I'm also a self taught developer and I'm familiar with languages like Python,Java(OOP),Javascript.
+Lastly Football is what I love the most and I've been following the sport since my childhood and I'm also planning to write blogs about it.
 
 ## Certifications & Languages
 
@@ -27,3 +16,5 @@ some of my favourite reads are :
 
 - **Spanish (CEFR B2)** – Instituto Cervantes / SIELE  
   [📄 View Certificate (PDF)](/file/Certificado.pdf)
+
+- **Excel Advanced** – Entri.app
