@@ -1,6 +1,6 @@
 # About
 
-Hello, I'm Athul Kallungal. A Logistic and supply chain graduate from Kingston University London,currently living in Seville, Spain.
+Hello, I'm Athul Kallungal. A Logistic and supply chain graduate from Kingston University London, currently living in Seville, Spain.
 
 This website is a personal blog where I write about things that I like and also write about the things I learn so I can comeback anytime and refer to. You can have a look at my [blogs](/) or you can search by [category](/categories).
 
@@ -18,3 +18,7 @@ Lastly Football is what I love the most and I've been following the sport since 
   [📄 View Certificate (PDF)](/file/Certificado.pdf)
 
 - **Excel Advanced** – Entri.app
+  [📄 View Certificate (PDF)](/file/excel-cert.pdf)
+
+- **Web Development** – Open Course by University Of Helsinki
+  [📄 View Certificate (PDF)](/img/certificate-fullstack.png)
